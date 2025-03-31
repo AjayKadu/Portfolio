@@ -1,0 +1,29 @@
+#imgDiv{
+    height: 30px;
+    width: 30px;
+    margin: 20px;
+    display: flex;
+ 
+}
+
+#mainDiv{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+
+}
+
+img{
+    padding-right: 5px;
+}
+
+#hr{
+    margin: 0px;
+    padding: 0px;
+    color: rgb(245, 188, 188);
+}
+
+.text-center{
+    margin: 0px;
+    padding: 5px 0px;
+}
