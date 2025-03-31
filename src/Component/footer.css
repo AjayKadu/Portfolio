@@ -1,29 +1,38 @@
-#imgDiv{
-    height: 30px;
-    width: 30px;
-    margin: 20px;
+#mainDiv {
     display: flex;
- 
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 140px; /* Adds spacing between sections */
+    flex-wrap: wrap;
+    padding-top: 10px;
 }
 
-#mainDiv{
+.social-links,
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.imgDiv {
     display: flex;
     align-items: center;
-    justify-content:space-around;
-
+    gap: 10px;
+    margin-bottom: 15px;
 }
 
-img{
-    padding-right: 5px;
+.imgDiv img {
+    width: 25px;
+    height: 25px;
+}
+
+.text-center {
+    text-align: center;
+    padding: 2px 0px;
+    margin: 0px;
 }
 
 #hr{
     margin: 0px;
     padding: 0px;
-    color: rgb(245, 188, 188);
-}
-
-.text-center{
-    margin: 0px;
-    padding: 5px 0px;
 }

@@ -52,6 +52,8 @@ function Header() {
                     </div>
                 </div>
             </div>
+            <br />
+            <hr />
         </>
     );
 }
