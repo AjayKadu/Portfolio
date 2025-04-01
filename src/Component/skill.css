@@ -14,8 +14,8 @@
   
   .card1:hover {
     background: #8d78f4;
-    color: rgb(12, 12, 12);
-
+    color: rgb(250, 250, 250);
+ 
 
   }
   
@@ -25,4 +25,5 @@
     justify-content: center;
     gap: 15px;
   }
+  
   

@@ -1,0 +1,30 @@
+#liDiv{
+    display: flex;
+    align-items: center;
+}
+
+#liDiv p{
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  padding: 4px 0px;
+}
+
+
+
+.animate__animated {
+    animation-duration: 1.5s !important; /* Slower animation */
+    animation-timing-function: ease-in-out !important; /* Smooth transition */
+}
+
+.list-group {
+    background: linear-gradient(135deg, #8B78E6, #EAF0F1) !important;
+}
+
+.list-group-item{
+    background: linear-gradient(135deg, #8B78E6, #EAF0F1) !important;
+}
+
+#heading {
+    font-size: 16px;
+    font-weight: 550;
+}

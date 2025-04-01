@@ -6,7 +6,8 @@
     box-shadow: 0 4px 15px rgba(255, 255, 255, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     overflow: hidden;
-    width: 95%;
+    width: 90%;
+    border: 2px solid white;
     justify-self: center;
     margin-top: 30px;
 }
@@ -118,13 +119,14 @@
 
 #back {
     background-color: #ffffff21;
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 4px solid #7B8788;
+    border: 4px solid #ffffff;
+    /* #7B8788 */
     transition: transform 0.3s ease-in-out;
 }
 
@@ -134,8 +136,8 @@
 }
 
 #back img {
-    height: 219px;
-    width: 235px;
+    height: 270px;
+    width: 277px;
     margin-top: 22px;
     border-radius: 50%;
     transition: transform 0.5s ease, opacity 0.5s ease, box-shadow 0.3s ease;
